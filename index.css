@@ -5,7 +5,7 @@ body {
     max-width: 400px;
 }
 
-@font-face {
+@font-face {                                    /* digital font */
     font-family: digital;
     src: url("/digital-7.regular.ttf")
 }
@@ -16,12 +16,12 @@ body {
     color: #eeeeee;
 }
 
-h3 {
+h3 {                                            /*score titles*/
     margin: 10px 0px 2px 0px;
     font-size: 25px;
 }
 
-.score {
+.score {                                       /*scores*/
     text-align: center;
     padding: 4px 30px;
     color:#F94F6D;
@@ -32,7 +32,7 @@ h3 {
     font-family: digital;
 }
 
-.foul {
+.foul {                                       /*foul-counter*/
      text-align: center;
     padding: 4px 20px;
     color:#F94F6D;
